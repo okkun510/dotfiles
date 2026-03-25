@@ -2,6 +2,10 @@ tap "adoptopenjdk/openjdk"
 tap "aws/tap"
 tap "manaflow-ai/cmux"
 tap "supabase/tap"
+# Run your GitHub Actions locally
+brew "act"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Command-line tool to manipulate Android App Bundles
@@ -64,6 +68,10 @@ brew "zellij"
 brew "zoxide"
 # Supabase CLI
 brew "supabase/tap/supabase"
+# Supabase CLI (Beta)
+brew "supabase/tap/supabase-beta", link: false
+# Program for playing and analysing the game of Go
+brew "katago"
 # JDK from the Java User Group (JUG)
 cask "adoptopenjdk"
 # Tools for building Android applications
@@ -102,8 +110,6 @@ cask "font-symbols-only-nerd-font"
 cask "google-chrome"
 # Japanese input software
 cask "google-japanese-ime"
-# Terminal emulator as alternative to Apple's Terminal app
-cask "iterm2"
 # JetBrains tools manager
 cask "jetbrains-toolbox"
 # Open-source keystroke visualiser
@@ -123,6 +129,8 @@ cask "visual-studio-code"
 # Install and switch between multiple versions of Xcode
 cask "xcodes-app"
 # Video communication and virtual meeting platform
+# KataGo analysis tool for the game of Go
+cask "katrain"
 cask "zoom"
 mas "1Password 7", id: 1333542190
 mas "Developer", id: 640199958
@@ -168,6 +176,22 @@ vscode "seatonjiang.gitmoji-vscode"
 vscode "streetsidesoftware.code-spell-checker"
 vscode "tamasfe.even-better-toml"
 vscode "usernamehw.errorlens"
+vscode "visualstudioexptteam.vscodeintellicode-completions"
 vscode "wix.vscode-import-cost"
 vscode "yoavbls.pretty-ts-errors"
 vscode "yusukehirao.vscode-markuplint"
+vscode "christian-kohler.npm-intellisense"
+vscode "emeraldwalk.runonsave"
+vscode "github.github-vscode-theme"
+vscode "graphql.vscode-graphql"
+vscode "graphql.vscode-graphql-syntax"
+vscode "janisdd.vscode-edit-csv"
+vscode "jasonnutter.search-node-modules"
+vscode "jawandarajbir.react-vscode-extension-pack"
+vscode "mhutchie.git-graph"
+vscode "mikestead.dotenv"
+vscode "mosapride.zenkaku"
+vscode "msjsdiag.vscode-react-native"
+vscode "steoates.autoimport"
+vscode "xabikos.javascriptsnippets"
+vscode "xabikos.reactsnippets"
