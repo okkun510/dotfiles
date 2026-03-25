@@ -1,4 +1,3 @@
-tap "adoptopenjdk/openjdk"
 tap "aws/tap"
 tap "manaflow-ai/cmux"
 tap "supabase/tap"
@@ -72,8 +71,6 @@ brew "supabase/tap/supabase"
 brew "supabase/tap/supabase-beta", link: false
 # Program for playing and analysing the game of Go
 brew "katago"
-# JDK from the Java User Group (JUG)
-cask "adoptopenjdk"
 # Tools for building Android applications
 cask "android-studio"
 # Chromium based browser
