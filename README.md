@@ -30,6 +30,8 @@ Homebrewのインストール、パッケージのインストール、dotfiles�
 
 既存の設定ファイルがある場合は、事前にバックアップしてください（詳細は「既存ファイルがある場合」を参照）。
 
+> **注意:** dotfiles の後に [enverter](https://github.com/okkun510/enverter) を実行してください。新しいPCのセットアップ手順の全体は enverter の README を参照してください。
+
 ## 管理している設定ファイル
 
 - **zsh** (`.zshrc`) - シェル設定
