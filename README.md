@@ -10,12 +10,10 @@
 
 ## インストール
 
-```sh
-# リポジトリをクローン
-git clone <your-repo-url> ~/dotfiles
-cd ~/dotfiles
-
-# セットアップを実行
+```bash
+git clone git@github.com:okkun510/dotfiles.git ~/ghq/github.com/okkun510/dotfiles
+cd ~/ghq/github.com/okkun510/dotfiles
+git checkout personal
 sh init.sh
 ```
 
@@ -29,6 +27,8 @@ Homebrewのインストール、パッケージのインストール、dotfiles�
    ```
 2. ターミナルを再起動する（シェル設定やZinitプラグインの反映）
 3. VSCodeやターミナルアプリにフォントを適用する
+
+既存の設定ファイルがある場合は、事前にバックアップしてください（詳細は「既存ファイルがある場合」を参照）。
 
 ## 管理している設定ファイル
 
