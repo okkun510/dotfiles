@@ -51,8 +51,6 @@ brew "sevenzip"
 brew "starship"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
-# Text interface for Git repositories
-brew "tig"
 # Terminal multiplexer
 brew "tmux"
 # Tree command, improved
@@ -96,9 +94,6 @@ cask "expo-orbit"
 cask "figma"
 # Web browser
 cask "firefox"
-cask "font-caskaydia-cove-nerd-font"
-cask "font-fira-code-nerd-font"
-cask "font-hack-nerd-font"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-symbols-only-nerd-font"
 # Web browser
@@ -107,8 +102,6 @@ cask "google-chrome"
 cask "google-japanese-ime"
 # JetBrains tools manager
 cask "jetbrains-toolbox"
-# Open-source keystroke visualiser
-cask "keycastr"
 # AI-powered productivity tool for the command-line
 cask "kiro-cli"
 # App to write, plan, collaborate, and get organised
@@ -127,11 +120,7 @@ cask "xcodes-app"
 # KataGo analysis tool for the game of Go
 cask "katrain"
 cask "zoom"
-mas "1Password 7", id: 1333542190
-mas "Developer", id: 640199958
 mas "Keynote", id: 409183694
-mas "Keystroke Pro", id: 1572206224
-mas "MenuBar Stats", id: 714196447
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Slack", id: 803453959
