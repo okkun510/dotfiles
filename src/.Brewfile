@@ -75,7 +75,6 @@ cask "android-studio"
 cask "arc"
 # OpenAI's official browser with ChatGPT built in
 cask "chatgpt-atlas"
-cask "claude"
 cask "plaud"
 cask "cmd-eikana"
 # Keyboard customiser
