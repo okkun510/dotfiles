@@ -90,8 +90,6 @@ cask "dbeaver-community"
 cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
-# Assign keys, and then decorate and label them
-cask "elgato-stream-deck"
 # Launch builds and start simulators from your menu bar
 cask "expo-orbit"
 # Collaborative team software
