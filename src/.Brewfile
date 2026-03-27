@@ -122,11 +122,6 @@ cask "xcodes-app"
 # KataGo analysis tool for the game of Go
 cask "katrain"
 cask "zoom"
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Slack", id: 803453959
-mas "Xcode", id: 497799835
 vscode "aaron-bond.better-comments"
 vscode "ajmnz.prisma-import"
 vscode "arjun.swagger-viewer"
