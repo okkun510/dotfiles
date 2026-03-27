@@ -74,6 +74,7 @@ cask "android-studio"
 # Chromium based browser
 cask "arc"
 # OpenAI's official browser with ChatGPT built in
+cask "chatgpt"
 cask "chatgpt-atlas"
 cask "plaud"
 cask "cmd-eikana"
@@ -127,7 +128,8 @@ mas "Pages", id: 409201541
 mas "Slack", id: 803453959
 mas "Xcode", id: 497799835
 vscode "aaron-bond.better-comments"
-vscode "amazonwebservices.codewhisperer-for-command-line-companion"
+vscode "ajmnz.prisma-import"
+vscode "arjun.swagger-viewer"
 vscode "bierner.markdown-mermaid"
 vscode "bradlc.vscode-tailwindcss"
 vscode "christian-kohler.path-intellisense"
