@@ -1,16 +1,11 @@
 tap "aws/tap"
 tap "manaflow-ai/cmux"
-tap "supabase/tap"
 # Run your GitHub Actions locally
 brew "act"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Official Amazon AWS command-line interface
 brew "awscli"
-# Command-line tool to manipulate Android App Bundles
-brew "bundletool"
-# Dependency manager for Cocoa projects
-brew "cocoapods"
 # Load/unload environment variables based on $PWD
 brew "direnv"
 # Simple, fast and user-friendly alternative to find
@@ -55,55 +50,34 @@ brew "stow"
 brew "tmux"
 # Tree command, improved
 brew "tre-command"
-# Watch files and take action when they change
-brew "watchman"
+# JavaScript tool manager
+brew "volta"
 # Blazing fast terminal file manager written in Rust, based on async I/O
 brew "yazi"
 # Pluggable terminal workspace, with terminal multiplexer as the base feature
 brew "zellij"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
-# Supabase CLI
-brew "supabase/tap/supabase"
-# Supabase CLI (Beta)
-brew "supabase/tap/supabase-beta", link: false
-# Program for playing and analysing the game of Go
-brew "katago"
-# Tools for building Android applications
-cask "android-studio"
 # Chromium based browser
 cask "arc"
 # OpenAI's official browser with ChatGPT built in
 cask "chatgpt"
-cask "chatgpt-atlas"
-cask "plaud"
-cask "cmd-eikana"
 # Keyboard customiser
 cask "karabiner-elements"
 # Lightweight native macOS terminal with vertical tabs for AI coding agents
 cask "manaflow-ai/cmux/cmux"
 # Write, edit, and chat about your code with AI
 cask "cursor"
-# Universal database tool and SQL client
-cask "dbeaver-community"
-# Voice and text chat software
-cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
-# Launch builds and start simulators from your menu bar
-cask "expo-orbit"
 # Collaborative team software
 cask "figma"
-# Web browser
-cask "firefox"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-symbols-only-nerd-font"
 # Web browser
 cask "google-chrome"
 # Japanese input software
 cask "google-japanese-ime"
-# JetBrains tools manager
-cask "jetbrains-toolbox"
 # AI-powered productivity tool for the command-line
 cask "kiro-cli"
 # App to write, plan, collaborate, and get organised
@@ -112,16 +86,6 @@ cask "notion"
 cask "postman"
 # Control your tools with a few keystrokes
 cask "raycast"
-# Native GUI tool for relational databases
-cask "tableplus"
-# Open-source code editor
-cask "visual-studio-code"
-# Install and switch between multiple versions of Xcode
-cask "xcodes-app"
-# Video communication and virtual meeting platform
-# KataGo analysis tool for the game of Go
-cask "katrain"
-cask "zoom"
 vscode "aaron-bond.better-comments"
 vscode "ajmnz.prisma-import"
 vscode "arjun.swagger-viewer"
@@ -134,7 +98,6 @@ vscode "duynvu.dbml-language"
 vscode "eamodio.gitlens"
 vscode "editorconfig.editorconfig"
 vscode "effectful-tech.effect-vscode"
-vscode "expo.vscode-expo-tools"
 vscode "figma.figma-vscode-extension"
 vscode "formulahendry.auto-rename-tag"
 vscode "github.copilot"
@@ -169,11 +132,8 @@ vscode "graphql.vscode-graphql"
 vscode "graphql.vscode-graphql-syntax"
 vscode "janisdd.vscode-edit-csv"
 vscode "jasonnutter.search-node-modules"
-vscode "jawandarajbir.react-vscode-extension-pack"
 vscode "mhutchie.git-graph"
 vscode "mikestead.dotenv"
 vscode "mosapride.zenkaku"
-vscode "msjsdiag.vscode-react-native"
 vscode "steoates.autoimport"
 vscode "xabikos.javascriptsnippets"
-vscode "xabikos.reactsnippets"
